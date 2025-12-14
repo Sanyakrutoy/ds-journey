@@ -44,14 +44,15 @@ print(f"Hello {user_name}, next year you will be {user_age + 1}")"""
 # hours = seconds // 3600
 # print(hours)
 # rem_seconds = seconds % 3600
-# print(rem_seconds)
+# # print(rem_seconds)
 # minutes = rem_seconds // 60
+# print(minutes)
 # rem_seconds = rem_seconds % 60
-# print()
+# print(rem_seconds)
+#
 
-
-a = int(input("First digit:"))
-b = int(input("Second digit:"))
-c = int(input("Third digit:"))
-average = float((a+b+c)/ 3)
-print(f'Average is {average:.2f}')
+# a = int(input("First digit:"))
+# b = int(input("Second digit:"))
+# c = int(input("Third digit:"))
+# average = float((a+b+c)/ 3)
+# print(f'Average is {average:.2f}')
