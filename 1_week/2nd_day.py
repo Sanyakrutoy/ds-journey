@@ -1,4 +1,4 @@
-"""Задача 1"""
+# """Задача 1"""
 # digit = int(input("Enter a digit: "))
 # print("Even" if digit % 2 == 0 else "Odd")
 # if digit % 2 == 0:
@@ -7,7 +7,7 @@
 #     print("Digit is odd")
 """Задача 2 мой"""
 # number = int(input("Enter a score from 0 to 100:"))
-# if not 0 <= number <= 100:
+# if not 0 < number < 101:
 #     print("Enter a proper score")
 # elif 90 <= number <= 100:
 #     print("You got A")
@@ -46,17 +46,16 @@
 # b = int(input("Second digit : "))
 # dec = input("Enter an operation : ")
 # if dec == "+":
-#     print(a +b)
+#     print(a + b)
 # elif dec == "-":
-#     print(a-b)
+#     print(a - b)
 # elif dec == "*":
-#     print(a*b)
+#     print(a * b)
 # elif dec == "/":
 #     if b == 0:
 #         print("Not possible")
-#     else :
+#     else:
 #         print(a/b)
-#
 # else:
 #     print("enter a proper operation")
-#
+
